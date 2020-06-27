@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.302307">
+<testcase classname="Launch General store hybrid Mobile App and perform some operation" name="" time="53.302307">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefination.General_Store_Step.launch_general_Store_hybrid_App(General_Store_Step.java:37)&#13;&#10;&#9;at ✽.Given launch general Store hybrid App(login.feature:46)&#13;&#10;"><![CDATA[Given launch general Store hybrid App.......................................failed
+Then Open notification from mobile..........................................skipped
+Then find all notification..................................................skipped
+And clear the all notifications from mobile phone...........................skipped
+Then select the country where you want to shop..............................skipped
+Then enter your name........................................................skipped
+Then select your gender.....................................................skipped
+Then click on Let's shop button.............................................skipped
+And search for PG3 product..................................................skipped
+And search for product "Converse All Star"..................................skipped
+And click on Add cart link..................................................skipped
+And verify two product are available in cart page...........................skipped
+Then sum of two product amount is same as Total Purchase Amount.............skipped
+And click on "Please read our terms of conditions" link.....................skipped
+Then click on checkbox from Total purchase amount page......................skipped
+Then click on Visit to the website to complete purchase button..............skipped
+And It will navigate to WEB-VIEW APP........................................skipped
+Then Perform some operation inside the WEB-VIEW APP.........................skipped
+Then Again Navigate to NativeApp............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefination.General_Store_Step.launch_general_Store_hybrid_App(General_Store_Step.java:37)
+	at ✽.Given launch general Store hybrid App(login.feature:46)
+]]></failure>
+</testcase>
+</testsuite>

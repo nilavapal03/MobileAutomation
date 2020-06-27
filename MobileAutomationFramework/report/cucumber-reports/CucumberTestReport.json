@@ -1,0 +1,251 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 44,
+        "name": "",
+        "description": "select two product from product page and verify that product is selected in cart page",
+        "id": "launch-general-store-hybrid-mobile-app-and-perform-some-operation;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53302307121,
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefination.General_Store_Step.launch_general_Store_hybrid_App(General_Store_Step.java:37)\r\n\tat ✽.Given launch general Store hybrid App(login.feature:46)\r\n",
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "launch general Store hybrid App",
+            "match": {
+              "location": "General_Store_Step.launch_general_Store_hybrid_App()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Open notification from mobile",
+            "match": {
+              "location": "General_Store_Step.open_notification_from_mobile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "find all notification",
+            "match": {
+              "location": "General_Store_Step.find_all_notification()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "clear the all notifications from mobile phone",
+            "match": {
+              "location": "General_Store_Step.clear_the_all_notifications_from_mobile_phone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "select the country where you want to shop",
+            "match": {
+              "location": "General_Store_Step.select_the_country_where_you_want_to_shop()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "enter your name",
+            "match": {
+              "location": "General_Store_Step.enter_your_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "select your gender",
+            "match": {
+              "location": "General_Store_Step.select_your_gender()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "click on Let\u0027s shop button",
+            "match": {
+              "location": "General_Store_Step.click_on_Let_s_shop_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "search for PG3 product",
+            "match": {
+              "location": "General_Store_Step.search_for_PG_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "search for product \"Converse All Star\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Converse All Star",
+                  "offset": 20
+                }
+              ],
+              "location": "General_Store_Step.search_for_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "click on Add cart link",
+            "match": {
+              "location": "General_Store_Step.click_on_Add_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "verify two product are available in cart page",
+            "match": {
+              "location": "General_Store_Step.verify_two_product_are_available_in_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "sum of two product amount is same as Total Purchase Amount",
+            "match": {
+              "location": "General_Store_Step.sum_of_two_product_amount_is_same_as_Total_Purchase_Amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "click on \"Please read our terms of conditions\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please read our terms of conditions",
+                  "offset": 10
+                }
+              ],
+              "location": "General_Store_Step.click_on_link(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "click on checkbox from Total purchase amount page",
+            "match": {
+              "location": "General_Store_Step.click_on_checkbox_from_Total_purchase_amount_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "click on Visit to the website to complete purchase button",
+            "match": {
+              "location": "General_Store_Step.click_on_Visit_to_the_website_to_complete_purchase_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "It will navigate to WEB-VIEW APP",
+            "match": {
+              "location": "General_Store_Step.it_will_navigate_to_WEB_VIEW_APP()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "Perform some operation inside the WEB-VIEW APP",
+            "match": {
+              "location": "General_Store_Step.perform_some_operation_inside_the_WEB_VIEW_APP()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 64,
+            "name": "Again Navigate to NativeApp",
+            "match": {
+              "location": "General_Store_Step.again_Navigate_to_NativeApp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 43,
+            "name": "@Addcart"
+          }
+        ]
+      }
+    ],
+    "name": "Launch General store hybrid Mobile App and perform some operation",
+    "description": "",
+    "id": "launch-general-store-hybrid-mobile-app-and-perform-some-operation",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

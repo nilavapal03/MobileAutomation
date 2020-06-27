@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression" parallel="false">
+<listeners>
+	<listener class-name="com.nilava.Appium.listeners.Listeners"></listener>
+</listeners>
+<test name="MobileAutomation">
+
+<classes>
+  	<class name="com.nilava.Appium.Runner.TestRunner">
+  </class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
